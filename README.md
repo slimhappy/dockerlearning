@@ -15,3 +15,9 @@ vim ~/.bash_profile
   export PATH="$GOPATH/bin:$PATH
 source ~/.bash_profile
 ```
+## 3. 安装 beego 和 beego 工具：
+```
+go get -u github.com/beego/beego/v2
+
+go get -u github.com/beego/bee/v2
+```
